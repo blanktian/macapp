@@ -15,7 +15,7 @@ footer{background: #fff;line-height: 45px;transition: all 0.3s ease;}
 
 /* header */
 .wrapper{min-height: 100vh;flex-direction: column;display: flex;background-color: rgba(0, 0, 0, .05);position: relative;}
-/*.wrapper:after{background: url(/img/doodles.webp);background-size: 650px;opacity: .3;content: "";position: fixed;left: 0;right: 0;top: 0;bottom: 0;z-index: -1;}*/
+/*.wrapper:after{background: url(../img/doodles.webp);background-size: 650px;opacity: .3;content: "";position: fixed;left: 0;right: 0;top: 0;bottom: 0;z-index: -1;}*/
 #box1.active .wrapper{background: #000;}
 #box1.active,#box1.active .login input,#box1.active .login-box,#box1.active .space-header{background: #333!important;color: #ddd;}
 #box1.active .login:after{display: none;}
@@ -395,12 +395,12 @@ input.more-toggle {display: none;}
 .paymethod input{-webkit-appearance:radio;position: absolute;width: 100%;height: 100%;opacity: 0;}
 .paymethod label{position: relative;display: block;cursor: pointer;background-color: #fff;border-radius: 7px;overflow: hidden;border: 2px solid #eee;width: 160px;height: 50px;}
 .paymethod input:checked + label{/*background-color: #f1f6fb;*/border: 2px solid #f30;box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);}
-.paymethod label.pay-5{background: url(/img/tenpay.png) center no-repeat;background-size: 80%;background-color: #fff;}
-.paymethod label.pay-4{background: url(/img/alipay.png) center no-repeat;background-size: 55%;background-color: #fff;}
+.paymethod label.pay-5{background: url(../img/tenpay.png) center no-repeat;background-size: 80%;background-color: #fff;}
+.paymethod label.pay-4{background: url(../img/alipay.png) center no-repeat;background-size: 55%;background-color: #fff;}
 .upgrade button{width: 97%;margin: 20px auto;height: 42px;;display: block;border: none;cursor: pointer;border-radius: 5px;}
 .paymethod label i{text-indent: -9999px;display: inline-block;width: 100%;height: 100%;}
 .paypal,.paypal-con{display: none;}
-.paymethod label.paypal-btn{background: url(/img/paypal.svg) center no-repeat;background-size: 70%;background-color: #fff;}
+.paymethod label.paypal-btn{background: url(../img/paypal.svg) center no-repeat;background-size: 70%;background-color: #fff;}
 .paypal-con:checked ~ .paypal{display: block;}
 .paypal{position: fixed;width: 100%;background: rgba(0, 0, 0, .3);top: 0;left: 0;right: 0;bottom: 0;z-index: 9;}
 .paypal-wrap{position: relative;top:30%;background: #fff;box-shadow: 0 0 5px #888;max-width: 600px;margin: auto;padding: 25px 30px 60px;border-radius: 5px;text-align: center;}
@@ -564,9 +564,9 @@ main .downloand-wrap{text-align: center;margin: 20px auto;max-width: 800px;backg
 .download-tips li span{display: block;margin-top: 5px;min-height: 8rem;position: relative;}
 .download-tips li span img{max-width: 60px;position: absolute;left: 2rem;top: 1.4rem;}
 .download-tips li span i{font-size: 1.2rem;color: #666;line-height: 6.8rem; margin-right: 0.5rem;font-style: normal;}
-.download-tips li:nth-child(1) span{background: url(/img/step-mac.png) center bottom no-repeat;background-size: cover;}
-.download-tips li:nth-child(2) span{background: url(/img/step-drag.png) center bottom no-repeat;background-size: cover;}
-.download-tips li:nth-child(3) span{background: url(/img/step-launch-mac.png) center bottom no-repeat;background-size: cover;}
+.download-tips li:nth-child(1) span{background: url(../img/step-mac.png) center bottom no-repeat;background-size: cover;}
+.download-tips li:nth-child(2) span{background: url(../img/step-drag.png) center bottom no-repeat;background-size: cover;}
+.download-tips li:nth-child(3) span{background: url(../img/step-launch-mac.png) center bottom no-repeat;background-size: cover;}
 .download-tips li:nth-child(3) span img{left: 7.5rem;top: .5rem;max-width: 75px;}
 .baidu-hint{font-style: normal;margin: 15px 0;display: inline-block;background-color: #fff0d1;padding: 0 15px 0 42px;border-radius: 5px;color: #f60;line-height: 40px;}
 
