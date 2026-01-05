@@ -150,7 +150,7 @@ main .wrap{display: flex;flex-wrap: wrap;align-items: flex-start;margin: 30px au
 .app-info ul:before{top: inherit;bottom: 0;}
 */
 .app-info ul li{flex: 0 0 20%;justify-content: center;align-items: center;display: flex;flex-direction: column;position: relative;}
-.app-info ul li:after{content: "";position: absolute;top: 50%;right: 0;width: 1px;height: 20px;margin-top: -10px; background-color: rgba(125,125,125,.1);line-height: 0;}
+.app-info ul li:after{content: "";position: absolute;top: 50%;right: 0;width: 0;height: 20px;margin-top: -10px; background-color: rgba(125,125,125,.1);line-height: 0;}
 .app-info ul li:last-child:after{background-color: inherit;}
 .app-info ul li a{display: flex;align-items: center;color: #bbb;}
 .app-info ul li a:hover{color: #06f;}
