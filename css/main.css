@@ -523,7 +523,7 @@ main .article-comment{max-width: 800px;flex-direction: column;margin:auto;}
 .forum-wrap .article-list li .article-img{width: 240px;height: 160px;flex: auto;margin-bottom: 15px;border-radius: 5px;}
 .post-info{color: #bbb;display: flex;align-items: center;}
 .post-info a{color: #bbb;}
-a.new-post {line-height: 38px;background: #6b86ac;color: #fff;border-radius: 5px;text-align: center;margin: -5px 0 15px;display: block;align-items: center;}
+a.new-post {line-height: 40px;background: #6b86ac;color: #fff;border-radius: 5px;text-align: center;margin: -5px 0 15px;display: block;align-items: center;}
 a.new-post i{font-style: normal;margin-right: 2px;font-size: 1.3rem;vertical-align: middle;text-indent: -9999px;width: 18px;height: 18px;display: inline-block;margin-top: -2px;}
 .forum-detail .article-author{margin: 15px 0;}
 .forum-detail .article-img{max-width: 740px;height: 350px;border-radius: 5px 3px 0 0;background-size: contain!important;margin: 10px 0;}
