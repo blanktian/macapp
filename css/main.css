@@ -513,8 +513,8 @@ main .article-comment{max-width: 800px;flex-direction: column;margin:auto;}
 .article-txt h2{margin: 20px 0 5px;}
 .yoast-table-of-contents h2{margin: 10px 0;border-bottom: 1px solid #f1f1f1;padding-bottom: 5px;}
 .yoast-table-of-contents a{color: #6b86ac;}
-.schema-faq div{border-radius: 5px;border: 1px solid #6b86ac;padding:10px 15px;margin: 0 0 10px;}
-.schema-faq div strong{border-bottom: 1px solid #f1f1f1;display: block;}
+.schema-faq div{border-radius: 5px;border: 1px solid #6b86ac;padding:10px 15px;margin:10px 0;}
+.schema-faq div p{border-top: 1px solid #f1f1f1;}
 .article-txt table{width: 100%;}
 .article-txt table td{border-bottom: 1px solid #f1f1f1;border-left: 1px solid #f1f1f1;}
 
