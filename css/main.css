@@ -70,7 +70,7 @@ _::-webkit-full-page-media, _:future, :root .search #keywords{transition: none;}
 
 /* featured-article */
 .featured-article{margin-bottom: 30px;width: 100%}
-.featured-article ul{display: flex;flex-wrap: wrap;height: 380px;position: relative;}
+.featured-article ul{display: flex;flex-wrap: wrap;height: 340px;position: relative;}
 .featured-article li{flex: 0 0 25%;position: relative;overflow: hidden;height: 50%;}
 .featured-article li .article-img{width: 100%;height: 100%;text-indent: -9999px;position: relative;}
 .featured-article li .article-img:after{opacity: .8;position: absolute;content: "";display: block;width: 100%;top: 0;bottom: 0; background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#000 90%,#000 100%);}
@@ -496,7 +496,6 @@ main .article-detail{max-width: 100%;flex-direction: column;padding: 0;margin:30
 .article-detail .article-author{display: flex;align-items: center;padding: 0 0 20px 0;}
 .article-detail h1{margin-bottom: 30px;}
 .article-txt{line-height: 40px;margin-bottom: 30px;font-size: 1rem;}
-.article-txt *{font-size: 1rem!important;}
 .article-txt img{max-width: 98%!important;margin: 1%;}
 hr{border:none;border-bottom: 1px solid rgba(125, 125, 125, .1);margin: 20px 0;}
 .article-txt ol li{list-style-type: decimal;margin-left: 20px;}
@@ -510,6 +509,14 @@ hr{border:none;border-bottom: 1px solid rgba(125, 125, 125, .1);margin: 20px 0;}
 main .article-comment{max-width: 800px;flex-direction: column;margin:auto;}
 .article-comment .section{width: -webkit-fill-available;background-color: #fff;padding: 20px;margin-bottom: 30px;border-radius: 5px;}
 .article-comment #tosaypl span:nth-child(2),.article-comment #tosaypl .star,.forum-detail #tosaypl span:nth-child(2),.forum-detail #tosaypl .star{display: none;}
+.yoast-table-of-contents{border: 1px solid #6b86ac;padding:0 20px 20px;border-radius: 5px;margin-top:20px;}
+.article-txt h2{margin: 20px 0 5px;}
+.yoast-table-of-contents h2{margin: 10px 0;border-bottom: 1px solid #f1f1f1;padding-bottom: 5px;}
+.yoast-table-of-contents a{color: #6b86ac;}
+.schema-faq div{border-radius: 5px;border: 1px solid #6b86ac;padding:10px 15px;margin: 0 0 10px;}
+.schema-faq div strong{border-bottom: 1px solid #f1f1f1;display: block;}
+.article-txt table{width: 100%;}
+.article-txt table td{border-bottom: 1px solid #f1f1f1;border-left: 1px solid #f1f1f1;}
 
 /* forum-list */
 .article-wrap h2{display: block;margin: 0 0 20px;position: relative;}
