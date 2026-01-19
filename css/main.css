@@ -93,6 +93,7 @@ _::-webkit-full-page-media, _:future, :root .search #keywords{transition: none;}
 main .wrap{display: flex;flex-wrap: wrap;align-items: flex-start;margin: 30px auto;}
 .main{flex:1;margin: 0 30px 0 0;position: relative;border-radius: 5px;max-width: 100%;}
 .main .section{background: #fff;padding:25px;position: relative;border-radius: 5px;max-width: 678px;margin-bottom: 30px;border: 1px solid #fff;}
+.main .section:last-child{margin-bottom: 0;}
 .display-mode{text-indent: -9999px;background-color: inherit;font-size: 0;width: 41px;height: 20px;position: absolute;right: 30px;top: 30px;cursor: pointer;box-shadow: 0 0 1px #999;border-radius: 2px;}
 .display-mode:before,.display-mode:after{position: absolute;content: "";width: 20px;height: 20px;top: 0;left: 0;border-radius:2px 0 0 2px;}
 .display-mode:after{right: 0;left: inherit;border-left: 1px solid #eee;border-radius: 0 2px 2px 0;}
