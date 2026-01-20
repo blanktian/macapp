@@ -90,7 +90,7 @@ _::-webkit-full-page-media, _:future, :root .search #keywords{transition: none;}
 .featured-article li:first-child h2 a,.featured-article li:nth-child(2) h2 a{font-size: inherit;line-height: initial;}
 .featured-article li:hover .title{bottom: 60px;}
 .featured-article li:hover .article-author{bottom: 20px;}
-.article-author a{color: #fff;}
+.featured-article .article-author a{color: #fff;}
 .featured-article .article-author span i{margin-left: 10px;}
 
 
