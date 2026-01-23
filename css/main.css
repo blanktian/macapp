@@ -171,7 +171,7 @@ main .wrap{display: flex;flex-wrap: wrap;align-items: flex-start;margin: 30px au
 .download-btn .level{display: none;transform: scale(.8);}
 .download-btn:last-child .level{display: inline-block;position: absolute;top:50%;margin-top: -6px;margin-left: 0;}
 .download-btn .level:after{position: absolute;content: "\4F1A\5458\53EF\4E0B\8F7D";right:-70px;color:#bbb;font-size: 0.8rem;text-shadow: none;font-weight: 400;line-height: 15px;}
-.app-info ul{display: flex;flex-wrap: wrap;align-items: center;margin: 20px 0;padding: 20px 0;position: relative;color: #bbb;line-height: 15px}
+.app-info ul{display: flex;flex-wrap: wrap;align-items: center;margin: 20px 0;padding: 20px 0;position: relative;color: #bbb;line-height: 18px}
 /*
 .app-info ul:after,.app-info ul:before{content: "";position:absolute;top: 0;left: 0;right: 0;height: 1px;background-color: rgba(125,125,125,.1);}
 .app-info ul:before{top: inherit;bottom: 0;}
